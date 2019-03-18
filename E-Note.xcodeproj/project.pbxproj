@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD03C92223FD58B000A2DAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03C91223FD58B000A2DAB /* AppDelegate.swift */; };
+		FAD03C94223FD58B000A2DAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03C93223FD58B000A2DAB /* ViewController.swift */; };
+		FAD03C96223FD58B000A2DAB /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03C95223FD58B000A2DAB /* Document.swift */; };
+		FAD03C98223FD58D000A2DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD03C97223FD58D000A2DAB /* Assets.xcassets */; };
+		FAD03C9B223FD58D000A2DAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD03C99223FD58D000A2DAB /* Main.storyboard */; };
+		FAD03CA7223FD58E000A2DAB /* E_NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03CA6223FD58E000A2DAB /* E_NoteTests.swift */; };
+		FAD03CB2223FD58E000A2DAB /* E_NoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD03CB1223FD58E000A2DAB /* E_NoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD03CA3223FD58E000A2DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD03C86223FD58B000A2DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD03C8D223FD58B000A2DAB;
+			remoteInfo = "E-Note";
+		};
+		FAD03CAE223FD58E000A2DAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD03C86223FD58B000A2DAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD03C8D223FD58B000A2DAB;
+			remoteInfo = "E-Note";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD03C8E223FD58B000A2DAB /* E-Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD03C91223FD58B000A2DAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD03C93223FD58B000A2DAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD03C95223FD58B000A2DAB /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		FAD03C97223FD58D000A2DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD03C9A223FD58D000A2DAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD03C9C223FD58D000A2DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD03C9D223FD58D000A2DAB /* E_Note.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = E_Note.entitlements; sourceTree = "<group>"; };
+		FAD03CA2223FD58E000A2DAB /* E-NoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-NoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD03CA6223FD58E000A2DAB /* E_NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_NoteTests.swift; sourceTree = "<group>"; };
+		FAD03CA8223FD58E000A2DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD03CAD223FD58E000A2DAB /* E-NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-NoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD03CB1223FD58E000A2DAB /* E_NoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_NoteUITests.swift; sourceTree = "<group>"; };
+		FAD03CB3223FD58E000A2DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD03C8B223FD58B000A2DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03C9F223FD58E000A2DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03CAA223FD58E000A2DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD03C85223FD58B000A2DAB = {
+			isa = PBXGroup;
+			children = (
+				FAD03C90223FD58B000A2DAB /* E-Note */,
+				FAD03CA5223FD58E000A2DAB /* E-NoteTests */,
+				FAD03CB0223FD58E000A2DAB /* E-NoteUITests */,
+				FAD03C8F223FD58B000A2DAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD03C8F223FD58B000A2DAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03C8E223FD58B000A2DAB /* E-Note.app */,
+				FAD03CA2223FD58E000A2DAB /* E-NoteTests.xctest */,
+				FAD03CAD223FD58E000A2DAB /* E-NoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD03C90223FD58B000A2DAB /* E-Note */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03C91223FD58B000A2DAB /* AppDelegate.swift */,
+				FAD03C93223FD58B000A2DAB /* ViewController.swift */,
+				FAD03C95223FD58B000A2DAB /* Document.swift */,
+				FAD03C97223FD58D000A2DAB /* Assets.xcassets */,
+				FAD03C99223FD58D000A2DAB /* Main.storyboard */,
+				FAD03C9C223FD58D000A2DAB /* Info.plist */,
+				FAD03C9D223FD58D000A2DAB /* E_Note.entitlements */,
+			);
+			path = "E-Note";
+			sourceTree = "<group>";
+		};
+		FAD03CA5223FD58E000A2DAB /* E-NoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03CA6223FD58E000A2DAB /* E_NoteTests.swift */,
+				FAD03CA8223FD58E000A2DAB /* Info.plist */,
+			);
+			path = "E-NoteTests";
+			sourceTree = "<group>";
+		};
+		FAD03CB0223FD58E000A2DAB /* E-NoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD03CB1223FD58E000A2DAB /* E_NoteUITests.swift */,
+				FAD03CB3223FD58E000A2DAB /* Info.plist */,
+			);
+			path = "E-NoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD03C8D223FD58B000A2DAB /* E-Note */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD03CB6223FD58E000A2DAB /* Build configuration list for PBXNativeTarget "E-Note" */;
+			buildPhases = (
+				FAD03C8A223FD58B000A2DAB /* Sources */,
+				FAD03C8B223FD58B000A2DAB /* Frameworks */,
+				FAD03C8C223FD58B000A2DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Note";
+			productName = "E-Note";
+			productReference = FAD03C8E223FD58B000A2DAB /* E-Note.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD03CA1223FD58E000A2DAB /* E-NoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD03CB9223FD58E000A2DAB /* Build configuration list for PBXNativeTarget "E-NoteTests" */;
+			buildPhases = (
+				FAD03C9E223FD58E000A2DAB /* Sources */,
+				FAD03C9F223FD58E000A2DAB /* Frameworks */,
+				FAD03CA0223FD58E000A2DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD03CA4223FD58E000A2DAB /* PBXTargetDependency */,
+			);
+			name = "E-NoteTests";
+			productName = "E-NoteTests";
+			productReference = FAD03CA2223FD58E000A2DAB /* E-NoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD03CAC223FD58E000A2DAB /* E-NoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD03CBC223FD58E000A2DAB /* Build configuration list for PBXNativeTarget "E-NoteUITests" */;
+			buildPhases = (
+				FAD03CA9223FD58E000A2DAB /* Sources */,
+				FAD03CAA223FD58E000A2DAB /* Frameworks */,
+				FAD03CAB223FD58E000A2DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD03CAF223FD58E000A2DAB /* PBXTargetDependency */,
+			);
+			name = "E-NoteUITests";
+			productName = "E-NoteUITests";
+			productReference = FAD03CAD223FD58E000A2DAB /* E-NoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD03C86223FD58B000A2DAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kobayashi;
+				TargetAttributes = {
+					FAD03C8D223FD58B000A2DAB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAD03CA1223FD58E000A2DAB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAD03C8D223FD58B000A2DAB;
+					};
+					FAD03CAC223FD58E000A2DAB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAD03C8D223FD58B000A2DAB;
+					};
+				};
+			};
+			buildConfigurationList = FAD03C89223FD58B000A2DAB /* Build configuration list for PBXProject "E-Note" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD03C85223FD58B000A2DAB;
+			productRefGroup = FAD03C8F223FD58B000A2DAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD03C8D223FD58B000A2DAB /* E-Note */,
+				FAD03CA1223FD58E000A2DAB /* E-NoteTests */,
+				FAD03CAC223FD58E000A2DAB /* E-NoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD03C8C223FD58B000A2DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03C98223FD58D000A2DAB /* Assets.xcassets in Resources */,
+				FAD03C9B223FD58D000A2DAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03CA0223FD58E000A2DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03CAB223FD58E000A2DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD03C8A223FD58B000A2DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03C94223FD58B000A2DAB /* ViewController.swift in Sources */,
+				FAD03C92223FD58B000A2DAB /* AppDelegate.swift in Sources */,
+				FAD03C96223FD58B000A2DAB /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03C9E223FD58E000A2DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03CA7223FD58E000A2DAB /* E_NoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD03CA9223FD58E000A2DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD03CB2223FD58E000A2DAB /* E_NoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD03CA4223FD58E000A2DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD03C8D223FD58B000A2DAB /* E-Note */;
+			targetProxy = FAD03CA3223FD58E000A2DAB /* PBXContainerItemProxy */;
+		};
+		FAD03CAF223FD58E000A2DAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD03C8D223FD58B000A2DAB /* E-Note */;
+			targetProxy = FAD03CAE223FD58E000A2DAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD03C99223FD58D000A2DAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD03C9A223FD58D000A2DAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD03CB4223FD58E000A2DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD03CB5223FD58E000A2DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAD03CB7223FD58E000A2DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "E-Note/E_Note.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "E-Note/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujitsu.jp.E-Note";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FAD03CB8223FD58E000A2DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "E-Note/E_Note.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "E-Note/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujitsu.jp.E-Note";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		FAD03CBA223FD58E000A2DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "E-NoteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujitsu.jp.E-NoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Note.app/Contents/MacOS/E-Note";
+			};
+			name = Debug;
+		};
+		FAD03CBB223FD58E000A2DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "E-NoteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujitsu.jp.E-NoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Note.app/Contents/MacOS/E-Note";
+			};
+			name = Release;
+		};
+		FAD03CBD223FD58E000A2DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "E-NoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujitsu.jp.E-NoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "E-Note";
+			};
+			name = Debug;
+		};
+		FAD03CBE223FD58E000A2DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "E-NoteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujitsu.jp.E-NoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "E-Note";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD03C89223FD58B000A2DAB /* Build configuration list for PBXProject "E-Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03CB4223FD58E000A2DAB /* Debug */,
+				FAD03CB5223FD58E000A2DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD03CB6223FD58E000A2DAB /* Build configuration list for PBXNativeTarget "E-Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03CB7223FD58E000A2DAB /* Debug */,
+				FAD03CB8223FD58E000A2DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD03CB9223FD58E000A2DAB /* Build configuration list for PBXNativeTarget "E-NoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03CBA223FD58E000A2DAB /* Debug */,
+				FAD03CBB223FD58E000A2DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD03CBC223FD58E000A2DAB /* Build configuration list for PBXNativeTarget "E-NoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD03CBD223FD58E000A2DAB /* Debug */,
+				FAD03CBE223FD58E000A2DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD03C86223FD58B000A2DAB /* Project object */;
+}
